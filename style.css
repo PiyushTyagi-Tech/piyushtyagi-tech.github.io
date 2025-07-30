@@ -1,0 +1,75 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+  padding: 20px;
+}
+header {
+  text-align: center;
+  padding: 40px 0;
+  background: #282c34;
+  color: white;
+}
+header h1 {
+  font-size: 2.5em;
+}
+.tagline {
+  font-style: italic;
+  margin: 10px 0 20px;
+}
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #61dafb;
+  font-weight: bold;
+}
+main {
+  max-width: 800px;
+  margin: auto;
+  padding: 40px 20px;
+}
+section {
+  margin-bottom: 60px;
+}
+h2 {
+  margin-bottom: 15px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+.project-card {
+  background: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+.project-card h3 {
+  margin-bottom: 10px;
+}
+.project-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #007acc;
+  text-decoration: none;
+}
+.project-card a:hover {
+  text-decoration: underline;
+}
+footer {
+  text-align: center;
+  padding: 20px 0;
+  color: #777;
+  border-top: 1px solid #ccc;
+}
